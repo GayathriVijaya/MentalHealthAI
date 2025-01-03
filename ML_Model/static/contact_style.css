@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+
+header {
+    background-color:#0b3057;
+    padding: 1rem;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;  /* Decreased logo size */
+    height: auto;
+    margin-right: 8px;  /* Adjusted space between the logo and title */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-section {
+    flex: 1; /* Allow the contact section to take up available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9f5ff; /* Light background color */
+    padding: 20px;
+}
+
+.contact-form-container {
+    background-color: #fff; 
+    padding: 20px; /* Adjusted padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Increased maximum width for the form */
+    width: 100%; /* Full width for smaller screens */
+}
+
+.contact-section h2 {
+    color: #004080;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 15px; /* Increased padding for a better feel */
+    border: 1px solid #2596BE;
+    border-radius: 5px;
+    width: 100%; /* Make inputs take full width */
+}
+
+button {
+    padding: 12px; /* Adjusted padding */
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size for readability */
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+.contact-info-section {
+    background-color: #0b3057; /* Dark blue background */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info-container {
+    max-width: 600px; /* Maximum width for the info box */
+    margin: 0 auto; /* Center the box */
+}
+
+.contact-info-section h3 {
+    margin-bottom: 10px;
+}
+
+/* Ensure the footer stays at the bottom */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1; /* Footer background color */
+}

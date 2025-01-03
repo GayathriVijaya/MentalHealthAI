@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Questionnaire</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        h2 {
+            color: #5a5a5a;
+            font-weight: 500;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 25px;
+        }
+        label {
+            font-weight: 500;
+            color: #4a4a4a;
+        }
+        .form-control {
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            padding: 10px;
+        }
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            max-width: 80%;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin:10%;
+            margin-top:50px;
+        }
+        .form-group label {
+            margin-bottom: 10px;
+        }
+        .form-group select {
+            margin-top: 8px;
+        }
+    .x{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:green;
+        margin-left:450px;
+    }
+    </style>
+<body>
+
+    <div class="container">
+        <h2>Mental Health Questionnaire</h2>
+        <form id="questionnaire" method="post" action="{% url 'questionnaire' %}">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="q1">1. How often have you felt nervous or anxious?</label>
+                <select class="form-control" id="q1" name="q1" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q2">2. How often have you had trouble sleeping?</label>
+                <select class="form-control" id="q2" name="q2" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q3">3. Little interest or pleasure in doing things</label>
+                <select class="form-control" id="q3" name="q3" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q4">4. Feeling down, depressed, or hopeless</label>
+                <select class="form-control" id="q4" name="q4" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q5">5. Trouble falling or staying asleep, or sleeping too much</label>
+                <select class="form-control" id="q5" name="q5" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q6">6. Feeling tired or having little energy</label>
+                <select class="form-control" id="q6" name="q6" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q7">7. Poor appetite or overeating</label>
+                <select class="form-control" id="q7" name="q7" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q8">8. Feeling bad about yourself or that you are a failure or
+have let yourself or your family down</label>
+                <select class="form-control" id="q8" name="q8" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div><div class="form-group">
+                <label for="q9">9. Trouble concentrating on things, such as reading the
+newspaper or watching television</label>
+                <select class="form-control" id="q9" name="q9" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div><div class="form-group">
+                <label for="q10">10. Moving or speaking so slowly that other people could
+have noticed. Or the opposite being so figety or
+restless that you have been moving around a lot more
+than usual
+</label>
+                <select class="form-control" id="q10" name="q10" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div><div class="form-group">
+                <label for="q11">11. Feeling nervous, anxious, or on edge </label>
+                <select class="form-control" id="q11" name="q11" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q12">12. Not being able to stop or control worrying</label>
+                <select class="form-control" id="q12" name="q12" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q13">13. Worrying too much about different things</label>
+                <select class="form-control" id="q13" name="q13" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q14">14. Trouble relaxing </label>
+                <select class="form-control" id="q14" name="q14" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q15">15. Being so restless that it is hard to sit still </label>
+                <select class="form-control" id="q15" name="q15" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q16">16. Becoming easily annoyed or irritable</label>
+                <select class="form-control" id="q16" name="q16" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q17">17. Feeling afraid, as if something awful
+might happen </label>
+                <select class="form-control" id="q17" name="q17" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="q18">18. Thoughts that you would be better off dead, or of
+hurting yourself</label>
+                <select class="form-control" id="q18" name="q18" required>
+                    <option value="">Select...</option>
+                    <option value="0">Not at all</option>
+                    <option value="1">Several days</option>
+                    <option value="2">More than half the days</option>
+                    <option value="3">Nearly every day</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary x">Submit</button>
+            </div>
+        </form>
+<!--        <div class="alert alert-success" role="alert">-->
+<!--            Your response has been submitted successfully!-->
+<!--        </div>-->
+<!--        <div class="alert alert-danger" role="alert">-->
+<!--            There was an error submitting your response. Please try again.-->
+<!--        </div>-->
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#questionnaire').on('submit', function(event) {
+                event.preventDefault(); // Prevent form from submitting normally
+                const responses = {};
+                $(this).serializeArray().forEach(item => {
+                    responses[item.name] = parseInt(item.value);
+                });
+
+                // Send responses to the Django backend
+                $.ajax({
+                    type: "POST",
+                    url: "{% url 'questionnaire' %}",
+                    headers: {
+                        'X-CSRFToken': '{{ csrf_token }}'  // Add CSRF token for AJAX
+                    },
+                    contentType: "application/json",
+                    data: JSON.stringify({ responses: responses }),
+                    success: function(response) {
+                        alert(response.message);
+                    },
+                    error: function(xhr) {
+                        alert("Error submitting responses.");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

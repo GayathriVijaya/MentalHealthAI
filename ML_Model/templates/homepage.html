@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="static/image/chatbot.png" alt="Chat for Change Logo" class="logo">
+                <h1>Chat for Change</h1>
+            </div>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                <li><a href="{{ url_for('blog') }}">Blog</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome-section">
+        <div class="welcome-message">
+            <h1>Welcome to Our Mental Health Support Website</h1>
+            <p>Your well-being is our priority. We're here to support you every step of the way.</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="intro">
+            <h2>We've Got You Covered For Almost Every Concern</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="static/image/marriage.jpg" alt="Marriage Issues">
+                    <h3>Marriage Issues</h3>
+                    <p>Feeling tensions in your relationship? Chat with our friendly chatbot for support and guidance.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="static/image/lonely.jpeg" alt="Feeling Lonely">
+                    <h3>Feeling Lonely</h3>
+                    <p>Struggling with feelings of loneliness? Connect with our chatbot for a comforting conversation.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="static/image/trauma.jpeg" alt="Trauma">
+                    <h3>Trauma</h3>
+                    <p>Need someone to talk to about your experiences? Our chatbot is here to listen and help you
+                        through.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/overthink.jpg" alt="Overthinking">
+                    <h3>Overthinking</h3>
+                    <p>Finding it hard to manage your thoughts? Chat with our bot for strategies to clear your mind.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/sadness.jpg" alt="Sadness">
+                    <h3>Sadness</h3>
+                    <p>Feeling down? Our chatbot can provide support and encouragement to help lift your spirits.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/anxiety.jpg" alt="Anxiety">
+                    <h3>Anxiety</h3>
+                    <p>Experiencing anxiety? Talk to our chatbot for coping mechanisms and reassurance.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/stress.jpg" alt="Stress">
+                    <h3>Stress</h3>
+                    <p>Overwhelmed by stress? Our chatbot can guide you through relaxation techniques and support.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/relationproblem.jpeg" alt="Relationship Problems">
+                    <h3>Relationship Problems</h3>
+                    <p>Facing relationship issues? Chat with our bot for helpful tips and strategies to navigate
+                        conflicts.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/gratitude.jpeg" alt="Gratitude">
+                    <h3>Gratitude</h3>
+                    <p>Feeling thankful? Practice gratitude by focusing on the positives in your life and appreciating the
+                        good things.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/happiness.jpeg" alt="Happiness">
+                    <h3>Happiness</h3>
+                    <p>Seeking joy? Happiness is found in the small moments. Find ways to bring more joy into your daily
+                        life.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/positivity.webp" alt="Positivity">
+                    <h3>Positivity</h3>
+                    <p>Stay optimistic! Positivity is about focusing on the good and finding light even in tough times.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/motivation.jpg" alt="Motivation">
+                    <h3>Motivation</h3>
+                    <p>Need a boost? Find motivation through setting clear goals, taking action, and pushing yourself
+                        forward.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/confidence.jpeg" alt="Confidence">
+                    <h3>Confidence</h3>
+                    <p>Believe in yourself! Building confidence comes from practice, facing challenges, and recognizing your
+                        worth.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/hope.jpeg" alt="Hope">
+                    <h3>Hope</h3>
+                    <p>Hold on to hope! Hope helps us stay resilient and focused on brighter possibilities, no matter the
+                        situation.</p>
+                </div>
+                <div class="card">
+                    <img src="static/image/grwoth.jpeg" alt="Growth">
+                    <h3>Growth</h3>
+                    <p>Personal growth is an ongoing process. Embrace challenges as opportunities for self-improvement and
+                        change.</p>
+                </div>
+                </div>
+            </div>
+            </div>
+           
+        </section>
+    </main>
+
+    <div class="chatbot-button-container">
+        <button class="chatbot-button" onclick="location.href='{{ url_for('chatbot') }}'">Chat with Our Mental Health
+            Bot</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

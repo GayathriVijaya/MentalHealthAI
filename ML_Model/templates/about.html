@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Mental Health Support</title>
+    <link rel="stylesheet" href="static/about_style.css" />
+  </head>
+  <body>
+   
+    <header>
+      <nav>
+          <div class="logo-container">
+              <img src="static/image/chatbot.png" alt="Chat for Change Logo" class="logo">
+              <h1>Chat for Change</h1>
+          </div>
+          <ul>  
+              <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+                <li><a href="{{ url_for('blog') }}">Blog</a></li>
+             
+          </ul>
+      </nav>
+  </header>
+
+    <section class="about-us-section section-box">
+      <div class="text-box">
+        <h2>About Our Mental Health Support Project</h2>
+        <p>
+          Our website "Chat for Change" is built to offer a compassionate,
+          technology-driven approach to improving mental well-being. Our goal is
+          to provide individuals with accessible tools, resources, and support
+          to help them navigate mental health challenges. Whether you're facing
+          stress, anxiety, or emotional difficulties, our platform offers a safe
+          space where you can explore your feelings, gain insights, and take
+          steps toward better mental health.
+          <br /><br />
+          Through  articles, and our supportive chatbot, we
+          aim to break the stigma around mental health and encourage everyone to
+          seek the help they need.
+        </p>
+      </div>
+      <img
+        src="static/image/about1.png"
+        alt="Mental Health Support"
+        class="image-box-1"
+      />
+    </section>
+
+    <section class="goal-section section-box reverse">
+      <div class="text-box">
+        <h2>Our Project Goal</h2>
+        <p>
+          Our main goal is to create a friendly platform for managing mental
+          health, especially through our chatbot. We understand that reaching
+          out for help can be hard, so our chatbot is available 24/7 to chat and
+          provide support. It offers immediate guidance for stress, anxiety, or
+          simply needing someone to talk to. By making mental health information
+          easy to access, the chatbot encourages open conversations, helping to
+          reduce stigma around seeking help.
+          <br /><br />
+          We want everyone to know they can share their feelings and find
+          support anytime. With our chatbot, we empower individuals to take
+          charge of their mental health journey with the tools and resources
+          they need to feel better.
+        </p>
+      </div>
+      <img src="static/image/about2.jpg" alt="Project Goal" class="image-box-2" />
+    </section>
+
+    <section class="why-project-section section-centered">
+      <div class="team-box">
+        <h2>Why This Project?</h2>
+        <p>
+          Mental health has become an increasingly important issue, particularly
+          for students and young adults facing stress, anxiety, and other
+          emotional challenges. we recognized that many individuals may
+          feel unsure of where to start when seeking help for their mental
+          health. This project was born out of the desire to make mental health
+          resources easily accessible and relatable, creating a safe and
+          supportive environment for users to take control of their well-being.
+          We believe that mental health care should be available to everyone,
+          and this platform is our step toward making that a reality.
+        </p>
+      </div>
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

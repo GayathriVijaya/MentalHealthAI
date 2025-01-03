@@ -1,0 +1,1475 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "Good day",
+        "greetings",
+        "whats up?",
+        "What's up",
+        "how is it going"
+      ],
+      "responses": ["Hey! What can I do for you today?"]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "What does it mean to have a mental illness?",
+        "What is mental health illness",
+        "Describe mental health illness"
+      ],
+      "responses": [
+        "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning."
+      ]
+    },
+
+    {
+      "tag": "affects_whom",
+      "patterns": [
+        "Who does mental illness affect?",
+        "Who is affected by mentall illness"
+      ],
+      "responses": [
+        "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness."
+      ]
+    },
+    {
+      "tag": "what_causes",
+      "patterns": [
+        "What causes mental illness?",
+        "What leads to mental illness?",
+        "how does one get mentally ill?"
+      ],
+      "responses": [
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition."
+      ]
+    },
+
+    {
+      "tag": "recover",
+      "patterns": [
+        "Can people with mental illness recover?",
+        "Is it possible to recover from mental illness"
+      ],
+      "responses": [
+        "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+      ]
+    },
+    {
+      "tag": "steps",
+      "patterns": [
+        "I know someone who appears to have such symptoms?",
+        "What are the steps to be followed incase of symptoms"
+      ],
+      "responses": [
+        "Although this website cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery.If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+      ]
+    },
+    {
+      "tag": "find_help",
+      "patterns": [
+        "How to find mental health professional for myself",
+        "How to find mental health professional?"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+      ]
+    },
+    {
+      "tag": "treatement_options",
+      "patterns": [
+        "What treatment options are available?",
+        "How can one recover?"
+      ],
+      "responses": [
+        "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+      ]
+    },
+    {
+      "tag": "treatment_tips",
+      "patterns": [
+        "How to become involved in treatment?",
+        "What should I keep in mind if I begin treatment?"
+      ],
+      "responses": [
+        "Since beginning treatment is a big step for individuals and families, it can be very overwhelming."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "I am leaving",
+        "Good bye",
+        "Have a Good day",
+        "bye",
+        "ciao",
+        "tata bye bye",
+        "exit"
+      ],
+      "responses": [
+        "I hope you have a great day ahead!Talk to you later. Good Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!"]
+    },
+    
+    {
+      "tag": "sleep",
+      "patterns": ["I'm having trouble sleeping due to overthinking."],
+      "responses": [
+        "Establish a calming bedtime routine and limit screen time before bed."
+      ]
+    },
+    {
+      "tag": "overwhelm",
+      "patterns": ["What if I'm feeling overwhelmed by my emotions?"],
+      "responses": [
+        "Try journaling your feelings and discussing them with someone supportive."
+      ]
+    },
+    {
+      "tag": "trauma",
+      "patterns": ["How can I cope with trauma?"],
+      "responses": [
+        "Seek professional help and consider trauma-informed therapy."
+      ]
+    },
+    {
+      "tag": "marriage",
+      "patterns": ["I'm struggling with my marriage."],
+      "responses": [
+        "Communication is key; consider couples therapy for guidance."
+      ]
+    },
+    {
+      "tag": "anxiety_medication",
+      "patterns": ["What medication can help with anxiety?"],
+      "responses": [
+        "Consult a doctor to discuss medications that may be suitable for you."
+      ]
+    },
+    {
+      "tag": "depression_medication",
+      "patterns": ["How do I know if I need medication for depression?"],
+      "responses": [
+        "A mental health professional can assess your situation and recommend options."
+      ]
+    },
+    {
+      "tag": "social_anxiety",
+      "patterns": ["I feel anxious about going out."],
+      "responses": [
+        "Gradual exposure to social situations can help reduce anxiety over time."
+      ]
+    },
+    {
+      "tag": "work_stress",
+      "patterns": ["I'm feeling stressed about work."],
+      "responses": [
+        "Try time management techniques and ensure you take regular breaks."
+      ]
+    },
+    {
+      "tag": "loneliness_coping",
+      "patterns": ["What are some coping strategies for loneliness?"],
+      "responses": [
+        "Consider volunteering or joining clubs to meet new people."
+      ]
+    },
+    {
+      "tag": "relationship_talk",
+      "patterns": ["How can I talk to my partner about my feelings?"],
+      "responses": [
+        "Be open and honest; sharing your feelings can strengthen your relationship."
+      ]
+    },
+    {
+      "tag": "hate",
+      "patterns": ["How can I manage feelings of hate?"],
+      "responses": [
+        "Discuss your feelings with someone you trust or a therapist."
+      ]
+    },
+    {
+      "tag": "mood_swings",
+      "patterns": ["What medication is effective for mood swings?"],
+      "responses": [
+        "A psychiatrist can help determine the right medication for your symptoms."
+      ]
+    },
+    {
+      "tag": "lost_purpose",
+      "patterns": ["I'm feeling lost and unsure of my purpose."],
+      "responses": [
+        "Consider exploring new activities or seeking guidance from a mentor."
+      ]
+    },
+    {
+      "tag": "guilt",
+      "patterns": ["How do I cope with feelings of guilt?"],
+      "responses": [
+        "Practice self-forgiveness and consider discussing your feelings with a therapist."
+      ]
+    },
+    {
+      "tag": "fear_of_failure",
+      "patterns": ["I'm struggling with fear of failure."],
+      "responses": [
+        "Focus on your strengths and set realistic goals to build confidence."
+      ]
+    },
+    {
+      "tag": "overthinking",
+      "patterns": ["How can I deal with overthinking?"],
+      "responses": [
+        "Practice mindfulness techniques to bring your focus back to the present."
+      ]
+    },
+    {
+      "tag": "event_anxiety",
+      "patterns": ["I'm feeling anxious about an upcoming event."],
+      "responses": [
+        "Prepare in advance and practice relaxation techniques beforehand."
+      ]
+    },
+    {
+      "tag": "ptsd_medication",
+      "patterns": ["Can medication help with my PTSD?"],
+      "responses": [
+        "Consult a healthcare provider to discuss medication options for PTSD."
+      ]
+    },
+    {
+      "tag": "self_esteem",
+      "patterns": ["I'm struggling with my self-esteem."],
+      "responses": [
+        "Consider therapy to explore the underlying causes of low self-esteem."
+      ]
+    },
+    {
+      "tag": "family_stress",
+      "patterns": ["How can I cope with family stress?"],
+      "responses": [
+        "Establish boundaries and make time for self-care to recharge."
+      ]
+    },
+    {
+      "tag": "panic_attacks",
+      "patterns": ["What should I do if I'm experiencing panic attacks?"],
+      "responses": [
+        "Seek immediate help from a mental health professional for coping strategies."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I'm feeling anxious about a presentation at work.",
+        "I'm feeling very anxious lately.",
+        "I'm feeling anxious about my ability to manage stress."
+      ],
+      "responses": [
+        "Try new activities or change your routine to stimulate fresh perspectives."
+      ]
+    },
+    {
+      "tag": "relationships",
+      "patterns": ["How can I build trust in my relationships?"],
+      "responses": [
+        "Be there to listen without judgment and encourage them to seek help if needed."
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "Can you suggest ways to manage my stress?",
+        "I'm feeling stressed about work."
+      ],
+      "responses": [
+        "Try journaling your feelings and discussing them with someone supportive."
+      ]
+    },
+    {
+      "tag": "emotional_intelligence",
+      "patterns": ["How can I build my emotional intelligence?"],
+      "responses": [
+        "Reflect on your emotions and practice empathy in your interactions."
+      ]
+    },
+    {
+      "tag": "feeling_stuck",
+      "patterns": ["I'm feeling stuck in my life."],
+      "responses": [
+        "Set small, achievable goals to create a sense of progress and direction."
+      ]
+    },
+    {
+      "tag": "relationship_anxiety",
+      "patterns": [
+        "What should I do if I'm experiencing relationship anxiety?"
+      ],
+      "responses": [
+        "Communicate openly with your partner and consider couples counseling for additional support."
+      ]
+    },
+    {
+      "tag": "feeling_misunderstood",
+      "patterns": ["What can I do if I'm feeling misunderstood by others?"],
+      "responses": [
+        "Share your feelings with those close to you; open dialogue can foster understanding."
+      ]
+    },
+    {
+      "tag": "feelings_of_betrayal",
+      "patterns": ["How can I cope with feelings of betrayal?"],
+      "responses": [
+        "Allow yourself to grieve the relationship and seek support from trusted friends."
+      ]
+    },
+    {
+      "tag": "nervous_before_events",
+      "patterns": [
+        "What should I do if I'm feeling nervous before social events?"
+      ],
+      "responses": [
+        "Practice relaxation techniques and consider bringing a supportive friend along."
+      ]
+    },
+    {
+      "tag": "financial_stress",
+      "patterns": ["I'm feeling stressed about financial issues."],
+      "responses": [
+        "Create a budget and seek advice from financial counselors if needed."
+      ]
+    },
+    {
+      "tag": "communication_skills",
+      "patterns": ["How can I improve my communication skills?"],
+      "responses": [
+        "Practice active listening and be open to feedback in conversations."
+      ]
+    },
+    {
+      "tag": "chronic_pain",
+      "patterns": [
+        "I'm struggling with chronic pain and it's affecting my mood."
+      ],
+      "responses": [
+        "Consult a healthcare professional to explore both pain management and emotional support."
+      ]
+    },
+    {
+      "tag": "supporting_a_friend",
+      "patterns": ["How can I support a friend going through a tough time?"],
+      "responses": [
+        "Be there to listen without judgment and encourage them to seek help if needed."
+      ]
+    },
+    {
+      "tag": "feelings_of_jealousy",
+      "patterns": ["What if I'm struggling with feelings of jealousy?"],
+      "responses": [
+        "Reflect on the root of those feelings and focus on your own achievements."
+      ]
+    },
+    {
+      "tag": "presentation_anxiety",
+      "patterns": ["I'm feeling anxious about a presentation at work."],
+      "responses": [
+        "Practice your presentation multiple times and visualize a positive outcome."
+      ]
+    },
+    {
+      "tag": "warning_signs",
+      "patterns": ["What are some of the warning signs of mental illness?"],
+      "responses": [
+        "Symptoms of mental health disorders vary depending on the type and severity of the condition."
+      ]
+    },
+    {
+      "tag": "recovery",
+      "patterns": ["Can people with mental illness recover?"],
+      "responses": [
+        "When healing from mental illness, early identification and treatment are of vital importance."
+      ]
+    },
+    {
+      "tag": "helping_others",
+      "patterns": [
+        "What should I do if I know someone who appears to have the symptoms of a mental disorder?"
+      ],
+      "responses": [
+        "We encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional."
+      ]
+    },
+    {
+      "tag": "finding_professional",
+      "patterns": [
+        "How can I find a mental health professional for myself or my child?"
+      ],
+      "responses": [
+        "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment."
+      ]
+    },
+    {
+      "tag": "treatment_options",
+      "patterns": ["What treatment options are available?"],
+      "responses": [
+        "Different treatment options are available for individuals with mental illness."
+      ]
+    },
+    {
+      "tag": "support_options",
+      "patterns": ["Where else can I get help?"],
+      "responses": [
+        "Consider reaching out to a family member, friend, clergy, healthcare provider, or other professionals."
+      ]
+    },
+    {
+      "tag": "medication_effects",
+      "patterns": [
+        "If I feel better after taking medication, does this mean I am 'cured' and can stop taking it?"
+      ],
+      "responses": [
+        "Create a plan for switching to a different treatment that will be a better fit."
+      ]
+    },
+    {
+      "tag": "therapy_resources",
+      "patterns": ["Where can I go to find therapy?"],
+      "responses": [
+        "Several different types of treatment and therapy can help."
+      ]
+    },
+    {
+      "tag": "clinical_trials",
+      "patterns": ["Where can I learn more information about clinical trials?"],
+      "responses": [
+        "Research studies (clinical trials) may involve the use of new medications or treatment approaches whose safety and effectiveness is being tested."
+      ]
+    },
+    {
+      "tag": "general_mental_health",
+      "patterns": ["What is mental health?"],
+      "responses": [
+        "We all have mental health, which is made up of our beliefs, thoughts, feelings, and behaviors."
+      ]
+    },
+    {
+      "tag": "preventing_problems",
+      "patterns": ["Can we prevent mental health problems?"],
+      "responses": [
+        "Developing our wellbeing, resilience, and seeking help early can help prevent challenges from becoming serious."
+      ]
+    },
+    {
+      "tag": "cures",
+      "patterns": ["Are there cures for mental health problems?"],
+      "responses": [
+        "It's often more realistic to find what helps with the issues you face."
+      ]
+    },
+    {
+      "tag": "causes",
+      "patterns": ["What causes mental health problems?"],
+      "responses": [
+        "Challenges can arise from psychological, biological, and social issues, as well as life events."
+      ]
+    },
+    {
+      "tag": "unwell",
+      "patterns": ["How do I know if I'm unwell?"],
+      "responses": [
+        "If your beliefs, thoughts, feelings, or behaviors significantly impact your ability to function normally, it's important to seek help."
+      ]
+    },
+    {
+      "tag": "importance_of_information",
+      "patterns": ["Why do I need to keep informed?"],
+      "responses": [
+        "Staying informed can help counter feelings of hopelessness and despair."
+      ]
+    },
+    {
+      "tag": "making_a_plan",
+      "patterns": ["Why do I need a plan?"],
+      "responses": [
+        "Having a plan helps you manage what you can control, like staying safe and maintaining your health during uncertain times."
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "What are some self-care activities?",
+        "How can I practice self-care?",
+        "Give me ideas for self-care"
+      ],
+      "responses": [
+        "Self-care activities include things like taking a relaxing bath, journaling, going for a nature walk, or simply taking a break to recharge."
+      ]
+    },
+    {
+      "tag": "kindness",
+      "patterns": [
+        "How can I be kinder?",
+        "Ways to practice kindness",
+        "Tips for being compassionate"
+      ],
+      "responses": [
+        "Start by showing kindness to yourself, helping others when you can, and being patient with those around you."
+      ]
+    },
+    {
+      "tag": "healthy_lifestyle",
+      "patterns": [
+        "How can I live a healthy lifestyle?",
+        "Tips for healthy living",
+        "Ways to stay healthy"
+      ],
+      "responses": [
+        "Eat a balanced diet, exercise regularly, and get enough sleep to maintain a healthy lifestyle."
+      ]
+    },
+    {
+      "tag": "empathy",
+      "patterns": [
+        "How can I be more empathetic?",
+        "Ways to show empathy",
+        "Tips for empathy"
+      ],
+      "responses": [
+        "Listen actively, try to understand others' perspectives, and respond without judgment."
+      ]
+    },
+    {
+      "tag": "work_life_balance",
+      "patterns": [
+        "How do I balance work and life?",
+        "Tips for work-life balance",
+        "Ways to manage work stress"
+      ],
+      "responses": [
+        "Set boundaries, prioritize your time, and make sure to schedule breaks and relaxation time."
+      ]
+    },
+    {
+      "tag": "self_reflection",
+      "patterns": [
+        "How do I practice self-reflection?",
+        "Ways to reflect on myself",
+        "Tips for self-reflection"
+      ],
+      "responses": [
+        "Set aside quiet time to think about your day, journal your thoughts, and consider areas where you'd like to grow."
+      ]
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "How can I manage my time better?",
+        "Tips for time management",
+        "Ways to stay organized"
+      ],
+      "responses": [
+        "Prioritize tasks, set achievable deadlines, and take short breaks to stay focused and organized."
+      ]
+    },
+    {
+      "tag": "self_discipline",
+      "patterns": [
+        "How can I improve my self-discipline?",
+        "Tips for self-discipline",
+        "Ways to stay disciplined"
+      ],
+      "responses": [
+        "Set clear goals, avoid distractions, and reward yourself for progress to build self-discipline."
+      ]
+    },
+    {
+      "tag": "patience",
+      "patterns": [
+        "How can I be more patient?",
+        "Ways to practice patience",
+        "Tips for staying calm"
+      ],
+      "responses": [
+        "Take deep breaths, remind yourself of long-term goals, and practice letting go of small frustrations."
+      ]
+    },
+    {
+      "tag": "physical_activity",
+      "patterns": [
+        "How can I stay active?",
+        "Ways to get more exercise",
+        "Tips for physical fitness"
+      ],
+      "responses": [
+        "Incorporate movement into your day, like taking walks, trying new sports, or joining a fitness class."
+      ]
+    },
+    {
+      "tag": "no-response",
+      "patterns": [""],
+      "responses": ["Sorry, I didn't understand you."]
+    },
+
+    {
+      "tag": "worthless",
+      "patterns": [
+        "I feel so worthless.",
+        "No one likes me.",
+        "I can't do anything.",
+        "I am so useless",
+        "Nothing makes sense anymore"
+      ],
+      "responses": [
+        "It's only natural to feel this way. Tell me more. What else is on your mind?"
+      ]
+    },
+    {
+      "tag": "depressed",
+      "patterns": [
+        "I can't take it anymore",
+        "I am so depressed",
+        "I think i'm depressed.",
+        "I have depression"
+      ],
+      "responses": [
+        "It helps to talk about what's happening. You're going to be okay"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "I feel great today.",
+        "I am happy.",
+        "I feel happy.",
+        "I'm good.",
+        "cheerful",
+        "I'm fine",
+        "I feel ok"
+      ],
+      "responses": [
+        "That's great to hear! I'm so glad you're feeling happy. Moments like these are special and worth cherishing. Keep enjoying the positivity!"
+      ]
+    },
+    {
+      "tag": "casual",
+      "patterns": [
+        "Oh I see.",
+        "ok",
+        "okay",
+        "nice",
+        "Whatever",
+        "K",
+        "Fine",
+        "yeah",
+        "yes",
+        "no",
+        "not really"
+      ],
+      "responses": ["Let's discuss further why you're feeling this way."]
+    },
+    {
+      "tag": "anxious",
+      "patterns": ["I feel so anxious.", "I'm so anxious because of "],
+      "responses": ["Don't be hard on yourself. What's the reason behind this?"]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "I have insominia",
+        "I am suffering from insomnia",
+        "I can't sleep.",
+        "I haven't slept for the last days.",
+        "I can't seem to go to sleep.",
+        "I haven't had proper sleep for the past few days."
+      ],
+      "responses": ["What do you think is the reason behind this?"]
+    },
+    {
+      "tag": "scared",
+      "patterns": [
+        "I'm scared",
+        "That sounds awful. What do i do?",
+        "No i don't want to feel this way",
+        "I am scared for myself"
+      ],
+      "responses": ["It's only natural to feel this way. I'm here for you."]
+    },
+    {
+      "tag": "death",
+      "patterns": [
+        "My mom died",
+        "My brother died",
+        "My dad passed away",
+        "My sister passed away",
+        "Someone in my family died",
+        "My friend passed away"
+      ],
+      "responses": [
+        "I'm sorry to hear that. If you want to talk about it. I'm here."
+      ]
+    },
+    {
+      "tag": "suicide",
+      "patterns": [
+        "I want to kill myself",
+        "I've thought about killing myself.",
+        "I want to die",
+        "I am going to kill myself",
+        "I am going to commit suicide"
+      ],
+      "responses": [
+        "I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."
+      ]
+    },
+    {
+      "tag": "meditation",
+      "patterns": [
+        "hmmm that sounds like it could be useful to me.",
+        "That sounds useful."
+      ],
+      "responses": [
+        "Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."
+      ]
+    },
+    {
+      "tag": "user-meditation",
+      "patterns": [
+        "i did what you said and i feel alot better. thank you very much.",
+        "I feel better now"
+      ],
+      "responses": [
+        "Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."
+      ]
+    },
+    {
+      "tag": "learn-mental-health",
+      "patterns": [
+        "I want to learn about mental health.",
+        "I want to learn more about mental health.",
+        "I'm interested in learning about mental health."
+      ],
+      "responses": [
+        "Oh that's really great. I'd be willing to answer anything that I know about it."
+      ]
+    },
+    {
+      "tag": "mental-health-fact",
+      "patterns": [
+        "Tell me a fact about mental health",
+        "Tell me another fact about mental health"
+      ],
+      "responses": [
+        "According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed"
+      ]
+    },
+    {
+      "tag": "fact-3",
+      "patterns": ["What is Depression?", "Define Depression"],
+      "responses": [
+        "A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."
+      ]
+    },
+    {
+      "tag": "fact-5",
+      "patterns": [
+        "How do i know if i have Depression?",
+        "Am i depressed?",
+        "Am i suffering from depression?",
+        "Am i mentally ill?"
+      ],
+      "responses": [
+        "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."
+      ]
+    },
+    {
+      "tag": "fact-31",
+      "patterns": ["What's the difference between anxiety and stress?"],
+      "responses": [
+        "Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses on mainly external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life."
+      ]
+    },
+    {
+      "tag": "fact-32",
+      "patterns": [
+        "What's the difference between sadness and depression?",
+        "difference between sadness and depression"
+      ],
+      "responses": [
+        "Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."
+      ]
+    },
+    {
+      "tag": "healthy_habits",
+      "patterns": [
+        "What are some healthy habits?",
+        "Tips for developing healthy habits",
+        "How can I build good habits?"
+      ],
+      "responses": [
+        "Start with small changes, stay consistent, and celebrate each step toward a healthier lifestyle."
+      ]
+    },
+    {
+      "tag": "financial_health",
+      "patterns": [
+        "How can I improve my financial health?",
+        "Ways to manage finances better",
+        "Tips for financial well-being"
+      ],
+      "responses": [
+        "Create a budget, track your spending, and set savings goals for future security."
+      ]
+    },
+    {
+      "tag": "learning_new_skills",
+      "patterns": [
+        "How can I learn new skills?",
+        "Tips for learning",
+        "Ways to improve skill set"
+      ],
+      "responses": [
+        "Set aside dedicated time, break down skills into steps, and practice regularly to build confidence."
+      ]
+    },
+    {
+      "tag": "effective_communication",
+      "patterns": [
+        "How can I communicate more effectively?",
+        "Ways to improve communication",
+        "Tips for clear communication"
+      ],
+      "responses": [
+        "Be clear and concise, listen actively, and make sure your body language aligns with your words."
+      ]
+    },
+    {
+      "tag": "mental_clarity",
+      "patterns": [
+        "How can I improve mental clarity?",
+        "Tips for staying focused",
+        "Ways to clear my mind"
+      ],
+      "responses": [
+        "Take breaks, get enough sleep, and try mindfulness exercises to help your mind stay clear and focused."
+      ]
+    },
+    {
+      "tag": "adaptability",
+      "patterns": [
+        "How can I be more adaptable?",
+        "Tips for adaptability",
+        "Ways to handle change better"
+      ],
+      "responses": [
+        "Stay open to new experiences, focus on learning, and practice resilience in the face of change."
+      ]
+    },
+    {
+      "tag": "work_productivity",
+      "patterns": [
+        "How can I be more productive at work?",
+        "Tips for productivity",
+        "Ways to focus at work"
+      ],
+      "responses": [
+        "Set priorities, take breaks, and use tools like to-do lists to keep you on track and motivated."
+      ]
+    },
+    {
+      "tag": "self_motivation",
+      "patterns": [
+        "How can I stay motivated?",
+        "Ways to motivate myself",
+        "Tips for self-motivation"
+      ],
+      "responses": [
+        "Remind yourself of your goals, break tasks into smaller steps, and reward yourself for small achievements."
+      ]
+    },
+    {
+      "tag": "career_growth",
+      "patterns": [
+        "How can I grow in my career?",
+        "Ways to advance professionally",
+        "Tips for career growth"
+      ],
+      "responses": [
+        "Seek out new learning opportunities, network, and set personal goals to help you grow in your career."
+      ]
+    },
+    {
+      "tag": "healthy_sleep",
+      "patterns": [
+        "How can I improve my sleep quality?",
+        "Tips for better sleep",
+        "Ways to sleep well"
+      ],
+      "responses": [
+        "Set a regular sleep schedule, create a calming bedtime routine, and reduce screen time before bed."
+      ]
+    },
+    {
+      "tag": "life_purpose",
+      "patterns": [
+        "How do I find purpose in life?",
+        "Tips for finding life purpose",
+        "Ways to discover my purpose"
+      ],
+      "responses": [
+        "Reflect on your passions, values, and strengths, and consider how you want to impact the world around you."
+      ]
+    },
+    {
+      "tag": "self_discipline",
+      "patterns": [
+        "How can I build self-discipline?",
+        "Tips for discipline",
+        "Ways to be more disciplined"
+      ],
+      "responses": [
+        "Set small, achievable goals, stay consistent, and remind yourself of the benefits of staying disciplined."
+      ]
+    },
+    {
+      "tag": "flexibility",
+      "patterns": [
+        "How can I be more flexible?",
+        "Tips for flexibility in life",
+        "Ways to be adaptable"
+      ],
+      "responses": [
+        "Embrace change, remain open to new ideas, and find positive ways to approach challenges."
+      ]
+    },
+    {
+      "tag": "patience",
+      "patterns": [
+        "How can I be more patient?",
+        "Tips for patience",
+        "Ways to build patience"
+      ],
+      "responses": [
+        "Practice mindfulness, remind yourself of the benefits of waiting, and take deep breaths to stay calm."
+      ]
+    },
+    {
+      "tag": "decision_making",
+      "patterns": [
+        "How can I make better decisions?",
+        "Tips for decision making",
+        "Ways to make good choices"
+      ],
+      "responses": [
+        "Weigh pros and cons, trust your instincts, and consider the impact on your long-term goals."
+      ]
+    },
+    {
+      "tag": "healthy_relationships",
+      "patterns": [
+        "How can I build healthy relationships?",
+        "Tips for good relationships",
+        "Ways to strengthen relationships"
+      ],
+      "responses": [
+        "Communicate openly, show appreciation, and respect each other's boundaries for a healthy connection."
+      ]
+    },
+    {
+      "tag": "community_involvement",
+      "patterns": [
+        "How can I get involved in my community?",
+        "Tips for community service",
+        "Ways to make a difference locally"
+      ],
+      "responses": [
+        "Volunteer, support local events, and connect with groups that share your values."
+      ]
+    },
+    {
+      "tag": "personal_values",
+      "patterns": [
+        "How do I identify my values?",
+        "Tips for understanding my values",
+        "Ways to find out what's important to me"
+      ],
+      "responses": [
+        "Reflect on what makes you feel fulfilled, think about meaningful experiences, and identify your core principles."
+      ]
+    },
+    {
+      "tag": "problem_solving",
+      "patterns": [
+        "How can I improve my problem-solving skills?",
+        "Tips for solving problems",
+        "Ways to handle issues"
+      ],
+      "responses": [
+        "Break down the problem, consider multiple solutions, and stay calm to think more clearly."
+      ]
+    },
+    {
+      "tag": "positivity",
+      "patterns": [
+        "How can I cultivate a positive mindset?",
+        "Tips for staying positive",
+        "Ways to think positively"
+      ],
+      "responses": [
+        "Practice gratitude, surround yourself with positive influences, and focus on solutions instead of problems."
+      ]
+    },
+    {
+      "tag": "forgiveness",
+      "patterns": [
+        "How can I learn to forgive?",
+        "Benefits of forgiveness",
+        "Ways to practice forgiveness"
+      ],
+      "responses": [
+        "Acknowledge your feelings, let go of resentment, and understand that forgiveness is for your own peace."
+      ]
+    },
+    {
+      "tag": "personal_growth",
+      "patterns": [
+        "How can I focus on personal growth?",
+        "Tips for self-improvement",
+        "Ways to enhance my life"
+      ],
+      "responses": [
+        "Set clear goals, seek feedback, and engage in lifelong learning to promote your growth."
+      ]
+    },
+    {
+      "tag": "finding_joy",
+      "patterns": [
+        "How can I find joy in my daily life?",
+        "Tips for discovering happiness",
+        "Ways to bring joy into my routine"
+      ],
+      "responses": [
+        "Engage in activities that bring you joy, practice gratitude, and connect with nature."
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "I'm so stressed out",
+        "I'm overwhelmed with stress",
+        "How do I deal with stress?",
+        "Stress is taking over my life",
+        "I can't manage my stress",
+        "How do I relax when I'm stressed?",
+        "What are some stress relief techniques?",
+        "Stress is affecting my health",
+        "I'm constantly stressed",
+        "How do I stop feeling so stressed?"
+      ],
+      "responses": [
+        "Stress can be draining, but taking breaks, practicing relaxation techniques, and setting healthy boundaries can help manage it. Remember to care for yourself during stressful times."
+      ]
+    }
+,{
+  "tag": "relationship_problems",
+  "patterns": [
+    "I'm having relationship problems",
+    "My partner and I are not getting along",
+    "How do I fix my relationship?",
+    "We're arguing a lot",
+    "How can we improve our relationship?",
+    "Why is my relationship falling apart?",
+    "We're growing apart, what should we do?",
+    "What are some ways to improve communication in a relationship?",
+    "How do I rebuild trust in my relationship?",
+    "How can I make my relationship work again?",
+    "Is it too late to fix my relationship?"
+  ],
+  "responses": [
+    "Relationships can be challenging, but open communication and seeking professional help can be valuable in understanding each other better."
+  ]
+}
+,{
+  "tag": "anxiety",
+  "patterns": [
+    "I'm feeling anxious",
+    "What should I do about anxiety?",
+    "I'm always nervous",
+    "How do I cope with anxiety?",
+    "I can't control my anxiety",
+    "Why do I feel anxious all the time?",
+    "How do I calm my anxiety?",
+    "What are some ways to reduce anxiety?",
+    "I'm overwhelmed with anxiety",
+    "My anxiety is affecting my daily life",
+    "How do I stop feeling anxious?"
+  ],
+  "responses": [
+    "Anxiety can feel consuming, but there are ways to manage it. Breathing exercises, grounding techniques, or talking to a professional can be helpful in easing the anxiety."
+  ]
+}
+,{
+  "tag": "sadness",
+  "patterns": [
+    "I'm feeling so sad",
+    "I don't feel happy anymore",
+    "Why do I feel so sad?",
+    "I feel like I'm stuck in sadness",
+    "I feel numb",
+    "Why can't I shake off my sadness?",
+    "What can I do to feel better?",
+    "How do I deal with my sadness?",
+    "I'm constantly sad, what should I do?",
+    "I don't enjoy anything anymore",
+    "Why do I feel empty inside?"
+  ],
+  "responses": [
+    "Sadness can be overwhelming, but it's important to remember that it's a part of being human. It's okay to take your time, and seeking professional support can help too."
+  ]
+}
+,{
+  "tag": "overthinking",
+  "patterns": [
+    "I can't stop overthinking",
+    "My mind won't shut off",
+    "Why do I overthink everything?",
+    "I feel stuck in my thoughts",
+    "I can't control my thoughts",
+    "How do I stop overthinking?",
+    "Why can't I just relax my mind?",
+    "What can I do when I can't stop thinking?",
+    "How do I calm my mind?",
+    "I'm overthinking every little thing"
+  ],
+  "responses": [
+    "Overthinking can create anxiety and stress. Try to focus on grounding techniques, practice mindfulness, or talk to someone you trust. It's okay to take a break from your thoughts."
+  ]
+}
+,{
+  "tag": "trauma",
+  "patterns": [
+    "I have experienced trauma",
+    "How do I heal from trauma?",
+    "I can't forget my past trauma",
+    "I'm struggling with my traumatic memories",
+    "What should I do if I'm traumatized?",
+    "How can I cope with trauma?",
+    "Trauma is affecting my life, how do I heal?",
+    "How do I move on from past trauma?",
+    "Is it normal to feel stuck after trauma?",
+    "How long does it take to heal from trauma?",
+    "What are the signs of unresolved trauma?"
+  ],
+  "responses": [
+    "Trauma can affect us deeply, but healing is possible. It's important to give yourself time, seek support from a therapist, and be kind to yourself during the process."
+  ]
+}
+,{
+  "tag": "loneliness",
+  "patterns": [
+    "I feel so lonely",
+    "Nobody cares about me",
+    "I am feeling alone",
+    "Why does loneliness feel so heavy?",
+    "Why do I feel so isolated?",
+    "I'm always alone, what can I do?",
+    "I don't have anyone to talk to",
+    "Why can't I connect with others?",
+    "Why is loneliness so hard to bear?",
+    "I feel disconnected from people",
+    "I feel abandoned by everyone",
+    "How do I overcome loneliness?"
+  ],
+  "responses": [
+    "Loneliness can be tough, but remember that it's okay to feel this way. Connecting with loved ones or talking to a professional might help. You're not alone in feeling lonely."
+  ]
+}
+,{
+  "tag": "marriage_issues",
+  "patterns": [
+    "I'm having problems in my marriage",
+    "My marriage is falling apart",
+    "What should I do about my marriage problems?",
+    "My partner and I are fighting a lot",
+    "How can I fix my marriage?",
+    "What can I do to save my marriage?",
+    "Why are we always arguing in our marriage?",
+    "Can marriage counseling help us?",
+    "My marriage is struggling, what should we do?",
+    "How do I deal with marriage problems?",
+    "How do I communicate better with my spouse?",
+    "Should I stay in an unhappy marriage?",
+    "My partner and I are distant, what can we do?",
+    "We're not getting along, what should we do?"
+  ],
+  "responses": [
+    "I'm really sorry you're going through this. It's important to talk openly with your partner and seek professional help if needed. Have you considered marriage counseling?"
+  ]
+}
+,    
+    {
+      "tag": "what_is_mental_illness",
+      "patterns": [
+        "What is mental illness?",
+        "Can you explain mental illness?",
+        "What does mental illness mean?",
+        "Tell me about mental illness"
+      ],
+      "responses": [
+        "Mental illness refers to a wide range of mental health conditions that affect how a person thinks, feels, behaves, and relates to others. These conditions can affect a person's thoughts, emotions, and daily functioning."
+      ]
+    },
+    {
+      "tag": "types_of_mental_illness",
+      "patterns": [
+        "What are the types of mental illnesses?",
+        "What are the different kinds of mental health disorders?",
+        "Tell me about different mental illnesses",
+        "What are the most common mental health conditions?"
+      ],
+      "responses": [
+        "There are many types of mental illnesses, including anxiety disorders, depression, bipolar disorder, schizophrenia, eating disorders, and personality disorders. Each has unique symptoms and treatment methods."
+      ]
+    },
+    {
+      "tag": "symptoms_of_mental_illness",
+      "patterns": [
+        "What are the symptoms of mental illness?",
+        "How can I recognize mental illness?",
+        "What should I look for to know if I have a mental illness?",
+        "What are the signs of mental health disorders?"
+      ],
+      "responses": [
+        "Symptoms can vary, but common signs include changes in mood, behavior, thinking, or perception. Feelings of sadness, anxiety, withdrawal, or confusion can be indicators of a mental health issue."
+      ]
+    },
+    {
+      "tag": "how_to_diagnose_mental_illness",
+      "patterns": [
+        "How is mental illness diagnosed?",
+        "Who diagnoses mental health conditions?",
+        "What tests are used to diagnose mental illness?",
+        "How do I know if I have a mental health disorder?"
+      ],
+      "responses": [
+        "Mental health professionals, such as psychologists or psychiatrists, diagnose mental illnesses through interviews, questionnaires, and sometimes medical tests. They assess symptoms and make a diagnosis based on criteria in the Diagnostic and Statistical Manual of Mental Disorders (DSM)."
+      ]
+    },
+    {
+      "tag": "how_to_treat_mental_illness",
+      "patterns": [
+        "How do you treat mental illness?",
+        "What treatments are available for mental health conditions?",
+        "How can I treat my mental health?",
+        "What should I do to treat a mental illness?"
+      ],
+      "responses": [
+        "Mental illnesses can be treated with therapy, medication, lifestyle changes, or a combination of these. Therapy types like Cognitive Behavioral Therapy (CBT) and medication prescribed by a doctor are common treatments."
+      ]
+    },
+    {
+      "tag": "mental_health_resources",
+      "patterns": [
+        "Where can I find help for mental health?",
+        "What are some mental health resources?",
+        "Where can I talk to a professional?",
+        "How do I find a therapist or counselor?"
+      ],
+      "responses": [
+        "There are many resources available, including hotlines, online counseling, support groups, and mental health professionals. You can start by talking to a primary care doctor, or check local mental health organizations or websites like the National Alliance on Mental Illness (NAMI)."
+      ]
+    },
+    {
+      "tag": "how_to_cope_with_mental_illness",
+      "patterns": [
+        "How can I cope with mental illness?",
+        "What are coping strategies for mental health?",
+        "How do I manage my mental health day-to-day?",
+        "What can I do to deal with my mental illness?"
+      ],
+      "responses": [
+        "Coping strategies include therapy, relaxation techniques, exercise, maintaining a healthy routine, staying connected with loved ones, and practicing self-care. It's also important to follow a treatment plan provided by a professional."
+      ]
+    },
+    {
+      "tag": "mental_illness_in_families",
+      "patterns": [
+        "How does mental illness affect families?",
+        "What should I do if someone in my family has a mental illness?",
+        "How can I support a loved one with mental illness?",
+        "What do I do if my family member is struggling with mental health?"
+      ],
+      "responses": [
+        "Mental illness can have a significant impact on families, but supporting a loved one involves understanding the illness, offering empathy, and encouraging them to seek professional help. Family therapy can also be beneficial."
+      ]
+    },
+    {
+      "tag": "mental_illness_stigma",
+      "patterns": [
+        "What is the stigma surrounding mental illness?",
+        "Why is there a stigma against mental health?",
+        "How can we reduce the stigma of mental illness?",
+        "What can I do about mental health stigma?"
+      ],
+      "responses": [
+        "Stigma around mental illness comes from misconceptions, fear, and prejudice. Reducing stigma involves education, open conversations, and offering support to those experiencing mental health issues. It’s important to be non-judgmental and empathetic."
+      ]
+    },
+    {
+      "tag": "how_to_help_others_with_mental_illness",
+      "patterns": [
+        "How can I help someone with mental illness?",
+        "What should I do if my friend is struggling with mental health?",
+        "How do I support someone with mental health issues?",
+        "How can I be there for someone with a mental illness?"
+      ],
+      "responses": [
+        "Listening without judgment, offering emotional support, encouraging them to seek professional help, and showing empathy are great ways to help someone with mental illness. Be patient and show them they are not alone."
+      ]
+    },
+    {
+      "tag": "mental_health_education",
+      "patterns": [
+        "Why is mental health education important?",
+        "How can I learn more about mental illness?",
+        "What should I know about mental health?",
+        "Tell me about mental health education"
+      ],
+      "responses": [
+        "Mental health education is essential to raise awareness, reduce stigma, and help people recognize signs of mental illness. Understanding mental health empowers individuals to seek help, cope with challenges, and improve overall well-being."
+      ]
+    },
+    {
+      "tag": "prevention_of_mental_illness",
+      "patterns": [
+        "How can I prevent mental illness?",
+        "Is it possible to prevent mental health issues?",
+        "What steps can I take to avoid mental illness?",
+        "Can mental illness be avoided?"
+      ],
+      "responses": [
+        "While not all mental health conditions can be prevented, maintaining good physical and emotional health can lower the risk. This includes regular exercise, good nutrition, sufficient sleep, stress management, and seeking help when needed."
+      ]
+    },
+    {
+      "tag": "happiness",
+      "patterns": [
+        "What does happiness feel like?",
+        "How can I be happy?",
+        "What makes people happy?",
+        "How can I improve my happiness?",
+        "Why don't I feel happy?",
+        "How do I find happiness again?",
+        "What can I do to increase my happiness?"
+      ],
+      "responses": [
+        "Happiness comes from within, and small changes like practicing gratitude, engaging in enjoyable activities, and connecting with others can help improve your mood."
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "What is self-care?",
+        "How do I practice self-care?",
+        "What are some self-care tips?",
+        "How can I take better care of myself?",
+        "Why is self-care important?",
+        "How do I improve my self-care routine?"
+      ],
+      "responses": [
+        "Self-care is about taking the time to nurture your physical, mental, and emotional well-being. It can include activities like exercising, meditating, and setting boundaries."
+      ]
+    }
+,{
+  "tag": "gratitude",
+  "patterns": [
+    "What is gratitude?",
+    "Why should I practice gratitude?",
+    "How do I show gratitude?",
+    "How can gratitude improve my mental health?",
+    "What are some gratitude practices?",
+    "How can I be more grateful?"
+  ],
+  "responses": [
+    "Gratitude is recognizing the positive things in your life and appreciating them. It can be practiced by keeping a gratitude journal or expressing thanks to others."
+  ]
+},
+{
+  "tag": "positivity",
+  "patterns": [
+    "How can I stay positive?",
+    "What does it mean to have a positive mindset?",
+    "How do I cultivate positivity in my life?",
+    "Why is positivity important?",
+    "What are some positive affirmations?"
+  ],
+  "responses": [
+    "Staying positive involves focusing on the good, even in difficult situations. Practice gratitude, surround yourself with positive influences, and use positive affirmations to maintain an optimistic outlook."
+  ]
+},
+{
+  "tag": "motivation",
+  "patterns": [
+    "How do I stay motivated?",
+    "What motivates you?",
+    "How can I increase my motivation?",
+    "Why is motivation important?",
+    "What are some motivational quotes?"
+  ],
+  "responses": [
+    "Motivation often comes from setting clear goals, breaking them into smaller steps, and celebrating small victories. Surround yourself with positive influences and remind yourself why you started."
+  ]
+},
+{
+  "tag": "confidence",
+  "patterns": [
+    "How do I build my confidence?",
+    "What is confidence?",
+    "How can I become more confident?",
+    "Why is confidence important?",
+    "How do confident people behave?"
+  ],
+  "responses": [
+    "Building confidence comes from recognizing your strengths, setting achievable goals, and stepping outside your comfort zone. Celebrate your successes and embrace the journey of personal growth."
+  ]
+}
+
+,
+{
+  "tag": "hope",
+  "patterns": [
+    "What is hope?",
+    "How do I stay hopeful?",
+    "Why is hope important?",
+    "What are some ways to build hope?",
+    "How does hope affect mental health?"
+  ],
+  "responses": [
+    "Hope is about believing in the possibility of a positive future. It helps you stay resilient in the face of challenges. You can build hope by setting goals, visualizing success, and focusing on the things you can control."
+  ]
+}
+,
+{
+  "tag": "growth",
+  "patterns": [
+    "What is personal growth?",
+    "How do I improve myself?",
+    "What are some ways to grow personally?",
+    "Why is personal growth important?",
+    "How can I challenge myself to grow?"
+  ],
+  "responses": [
+    "Personal growth is the process of improving yourself through learning, reflection, and experience. It involves stepping outside your comfort zone, setting new goals, and embracing challenges as opportunities for development."
+  ]
+}    
+  ]
+}

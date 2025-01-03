@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #0b3057;
+    padding: 1rem;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;  /* Decreased logo size */
+    height: auto;
+    margin-right: 8px;  /* Adjusted space between the logo and title */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section box with alternating image and text */
+.section-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.text-box {
+    width: 50%;
+    padding: 20px;
+    /* height: 300px; */
+    background-color: white;
+    border: 1px solid #2596BE;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #2596BE;
+    padding: 40px 40px ;
+}
+.text-box h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #004080;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text-box p{
+    color: black;
+    font-size: 17px;
+    padding: auto;
+}
+
+/* .image-box {
+    width: 50%;
+    max-height: auto;
+     object-fit: cover; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    object-fit: cover;
+} */
+ 
+.image-box-1 {
+    width: 100%; /* Use full width of the parent */
+    max-width: 500px; /* Set a max width for larger images */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-right: 80px;
+
+}
+
+.image-box-2 {
+    width: 100%; /* Use full width of the parent */
+    max-width: 500px; /* Set a max width for larger images */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 100px;
+
+}
+
+
+
+/* Reverse section for alternating layout */
+.section-box.reverse {
+    flex-direction: row-reverse;
+}
+
+h2 {
+    font-size: 2px;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+p, ul {
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Meet the Team Section: Centered text with background color */
+.section-centered {
+    text-align: center;
+  
+}
+
+.team-box {
+    background-color:#FFFF;
+    color: black;
+    padding: 20px;
+    
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.team-box ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-box p {
+    margin-top: 10px; /* Space above text */
+    max-width: 90%; /* Limit width of text */
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: justify; /* Justify text for better alignment */
+    line-height: 1.6; /* Improved readability */
+}
+
+.team-box h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+
+/* Centering content for Why This Project and How It Works sections */
+.section-centered .text-box {
+    width: 60%;
+    margin: 0 auto;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}

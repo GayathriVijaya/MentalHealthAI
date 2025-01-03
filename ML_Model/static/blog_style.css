@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #0b3057;
+    padding: 1rem;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;  /* Decreased logo size */
+    height: auto;
+    margin-right: 8px;  /* Adjusted space between the logo and title */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.blog-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    flex: 1;
+    padding: 20px;
+}
+
+.blog-post {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px; /* Space between posts */
+    max-width: 600px; /* Limit width of blog posts */
+    width: 100%; /* Full width for the post */
+}
+
+.blog-post img {
+    width: 100%; /* Make images and iframes responsive */
+    height: auto;
+    border: 2px solid #2596BE;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #2596BE;
+}
+
+.blog-post p {
+    margin-top: 10px; /* Space above text */
+    max-width: 90%; /* Limit width of text */
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: justify; /* Justify text for better alignment */
+    line-height: 1.6; /* Improved readability */
+}
+
+
+/* Ensure text is centered */
+.blog-post h2 {
+    text-align: center; /* Center the heading */
+    font-size: 30px;
+    color: #004080;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1; /* Footer background color */
+}

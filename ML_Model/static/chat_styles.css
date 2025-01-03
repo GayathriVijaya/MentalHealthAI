@@ -1,0 +1,213 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Page Setup */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f7f7f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Chat Container - Full page */
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}
+
+/* Chatbox Content */
+.chatbox__support {
+    display: block; /* Ensure chatbox is visible */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 16px;
+    height: 100%; /* Full page height */
+    max-height: 100vh; /* Prevent overflow beyond screen height */
+    overflow-y: auto;
+    animation: fadeIn 0.3s ease-in-out;
+    z-index: 1; /* Ensure the chatbox is always on top */
+}
+
+/* Header Section */
+.chatbox__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.chatbox__image--header {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chatbox__image--header img {
+    width: 100%;
+    height: 100%;
+}
+
+.chatbox__content--header {
+    flex-grow: 1;
+    padding-left: 12px;
+}
+
+.chatbox__heading--header {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.chatbox__description--header {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Chat Messages */
+.chatbox__messages {
+    max-height: calc(100vh - 160px); /* Adjust for header and footer space */
+    margin-bottom: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column; /* Correct message order (from top to bottom) */
+    padding-bottom: 10px;
+}
+
+/* Message Styles */
+.messages__item {
+    max-width: 80%;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.messages__item--operator {
+    background-color: #f1f0f0;
+    align-self: flex-start;
+}
+
+.messages__item--visitor {
+    background-color:#2596BE;
+    color: white;
+    align-self: flex-end;
+}
+
+/* Footer Section */
+.chatbox__footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: #fff;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    z-index: 2;
+}
+
+.chatbox__footer input {
+    width: 80%;
+    padding: 12px;
+    border-radius: 24px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    background-color: #f7f7f8;
+    transition: border 0.3s;
+}
+
+.chatbox__footer input:focus {
+    border-color:#2596BE;
+}
+
+.chatbox__send--footer {
+    padding: 12px;
+    background-color: #2596BE;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.chatbox__send--footer:hover {
+    background-color: #155bb3;
+}
+
+/* Send Arrow Icon (ChatGPT style) */
+.chatbox__send--footer::after {
+    content: '→';
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Animation for the Chatbox */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+    .chatbox__footer input {
+        width: 70%;
+    }
+
+    .chatbox__send--footer {
+        padding: 10px;
+    }
+}
+
+/* Smooth scroll for messages */
+.chatbox__messages {
+    scroll-behavior: smooth;
+}
+
+/* Chatbox scroll when full */
+.chatbox__messages::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.chatbox__messages::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+.chatbox__messages::-webkit-scrollbar-track {
+    background-color: #f7f7f8;
+}
