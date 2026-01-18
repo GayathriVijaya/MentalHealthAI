@@ -1,22 +1,57 @@
-# MentalHealthAI
-Chatforchange - AI-Driven Mental Wellness System  
+MentalHealthAI
+An AI-powered mental health chatbot designed to provide real-time emotional support and crisis intervention for individuals dealing with depression, anxiety, and stress. This system leverages a scientifically tested approach to offer meaningful, supportive conversations.
 
-Chatforchange is an **AI-powered mental health chatbot** that integrates **sound healing, real-time emotional support, and crisis intervention** to support individuals struggling with **depression, anxiety, stress and more**. Unlike conventional chatbots, ChatGor provides a **scientifically tested approach** to emotional well-being.
+🚀 Features
+🤖 AI-Driven Conversations – Engages in meaningful, supportive dialogue for emotional support.
 
-## 🚀 Features  
+🎯 High-Accuracy Distress Detection – 98.02% accurate AI model for precise emotional analysis and intervention.
 
-- 🗣️ **AI-Driven Chatbot** – Engages in meaningful conversations for emotional support.  
-- 🎵 **Sound Healing Therapy** – Uses healing audio interventions to reduce stress and enhance relaxation.  
-- 🎙️ **Smart Voice Recognition** – Identifies emotional distress in real time through speech analysis.  
-- 🔔 **Crisis Intervention Alerts** – Identifies suicidal behavior and alerts administrators for action.  
-- 📌 **Bookmark Happy Moments** – Helps users save and recall positive experiences to support mental wellness.  
-- 🎯 **98.02% Accurate Distress Detection** – AI model ensures precise emotional analysis and intervention.  
 
-## 🛠️ Tech Stack  
+🛠️ Tech Stack
+Frontend: HTML, CSS, JavaScript (for UI & voice recognition)
 
-- **Frontend:** HTML, CSS, JavaScript (for UI & voice recognition)
-- **Backend:** Python,  Flask  
-- **AI Models:** Feedforward Neural Network  
-- **Database:**  SQLite  
-- **APIs:** Twilio (SMS alert system), Speech-to-Text (STT) for voice recognition 
+Backend: Python, Flask
 
+AI/ML: Feedforward Neural Network (TensorFlow/Keras)
+
+Database: SQLite
+
+Natural Language Processing: NLTK for text preprocessing
+
+
+🏗️ Architecture
+The chatbot implements a feedforward neural network trained on mental health conversation patterns, utilizing:
+
+Bag-of-Words feature extraction
+
+Multi-layer neural network (256-128-64 architecture)
+
+Intent classification for appropriate response generation
+
+Real-time prediction with confidence scoring
+
+🚦 Getting Started
+Prerequisites
+Python 3.8+
+
+TensorFlow 2.x
+
+Flask
+
+NLTK
+
+Installation
+bash
+# Clone the repository
+git clone https://github.com/GayathriVijaya/MentalHealthAI.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download NLTK data
+python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet')"
+
+# Run the application
+Got to ML_Model
+python chatbot.py
+python app.py
